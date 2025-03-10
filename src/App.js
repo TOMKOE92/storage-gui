@@ -30,7 +30,7 @@ function App() {
       <ObjectDescription />
 
       {/* Product Image */}
-      <ImageElement src="https://via.placeholder.com/150" width={150} height={150} color={imageColor} setColor={setImageColor} />
+      <ImageElement src="/imageLift.png" width={200} height={150} color={imageColor} setColor={setImageColor} />
 
       {/* Confirm Button */}
       <DraggableButton label="Confirm" color={color} setColor={setColor} onClick={() => alert('Confirmation complete')} />

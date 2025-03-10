@@ -11,7 +11,6 @@ function App() {
   const [imageColor, setImageColor] = useState('transparent');
   const [Objectdescription, setDescription] = useState("Dies ist eine Produktbeschreibung.");
 
-  <img src="/imageLift.jpg" alt="Product" style={{ width: "200px", height: "200px" }} />
   
   return (
     <div className="App">

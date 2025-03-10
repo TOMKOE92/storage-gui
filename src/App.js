@@ -9,7 +9,8 @@ import ObjectDescription from './ObjectDescription';
 function App() {
   const [color, setColor] = useState('#4CAF50');
   const [imageColor, setImageColor] = useState('transparent');
-
+  const [Objectdescription, setDescription] = useState("Dies ist eine Produktbeschreibung.");
+  
   return (
     <div className="App">
       <h1>Storage GUI Prototype</h1>
